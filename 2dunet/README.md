@@ -1,6 +1,3 @@
-# Copyright © 2019-12-04 19:00 qiang.zhou <theodoruszq@gmail.com>
-# All rights reserved.
-
 This is the implementation of 2D UNet. The code only covers the inference stage.
 
 0. Prepare the deep learning environments
