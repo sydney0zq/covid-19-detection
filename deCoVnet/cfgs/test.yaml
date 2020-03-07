@@ -1,0 +1,18 @@
+MODEL:
+    MODEL_UID: "baseline_i3d"
+    ARCH: "i3d"
+    DEPTH: 50
+    NUM_CLASSES: 2
+    PRETRAINED_MODEL_PATH: "pretrained_model/ncov-Epoch_00140-auc95p9.pth"
+
+DATALOADER:
+    BATCH_SIZE_PER_GPU: 1
+    NUM_WORKERS: 8
+    SAMPLE_NUMBER: -1     # All CT images
+
+DATASETS:
+    DATA_ROOT: "NCOV-BF/size368x368-dlmask"
+
+TEST:
+    LOG_FILE: "test.log"
+    RESULE_HOME: "unet-results"
