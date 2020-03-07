@@ -15,12 +15,12 @@ Considering the privacy of patients, the training and testing data will not be p
 
 # LICENSE
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0
-International License][cc-by-sa].
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+This work is licensed under a
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+You should have received a copy of the license along with this
+work. If not, see <http://creativecommons.org/licenses/by-nc-sa/4.0/>.
+
 
