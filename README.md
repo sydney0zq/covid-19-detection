@@ -1,6 +1,7 @@
-# Deep Learning-based Detection for 2019-Coronavirus Disease (COVID-19) from Chest Computed Tomography
+# Deep Learning-based Detection for COVID-19 from Chest CT using Weak Label
 
-This is the official implementation of the paper "Deep Learning-based Detection for 2019-Coronavirus Disease (COVID-19) from Chest Computed Tomography". It covers only the inference stage.
+By Chuansheng Zheng, Xianbo Deng, Qing Fu, Qiang Zhou, Hui Ma, Wenyu Liu, and Xinggang Wang.
+
 
 Before running the code, please prepare a computer with NVIDIA GPU. Then install anaconda, pytorch and NVIDIA CUDA driver. Then you can step into the two folders to check the `README.md` file.
 
