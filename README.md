@@ -2,6 +2,7 @@
 
 By Chuansheng Zheng, Xianbo Deng, Qing Fu, Qiang Zhou, Hui Ma, Wenyu Liu, and Xinggang Wang.
 
+<hr>
 
 Before running the code, please prepare a computer with NVIDIA GPU. Then install anaconda, pytorch and NVIDIA CUDA driver. Then you can step into the two folders to check the `README.md` file.
 
