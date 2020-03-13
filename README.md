@@ -11,7 +11,7 @@ Before running the code, please prepare a computer with NVIDIA GPU. Then install
 
 - The file "20200212-auc95p9.txt" contains the output probabilities of our pretrained deCovNet on our testing set.
 
-Considering the privacy of patients, the training and testing data will not be publicly available. If you are interested about running the code, please contact the corresponding author [Xinggang Wang](mailto:xgwang@hust.edu.cn) for the pretrained models.
+The pretrained models are not currently available. If you are interested in the training codes, please contact [Xinggang Wang](mailto:xgwang@hust.edu.cn).
 
 
 
