@@ -4,7 +4,7 @@ By Chuansheng Zheng, Xianbo Deng, Qing Fu, Qiang Zhou, Hui Ma, Wenyu Liu, and Xi
 
 <hr>
 
-Preview paper on [medrixv](https://www.medrxiv.org/content/10.1101/2020.03.12.20027185v1). Before running the code, please prepare a computer with NVIDIA GPU. Then install anaconda, pytorch and NVIDIA CUDA driver. Then you can step into the two folders to check the `README.md` file.
+[Preview paper](https://www.medrxiv.org/content/10.1101/2020.03.12.20027185v1) on medrixv. Before running the code, please prepare a computer with NVIDIA GPU. Then install anaconda, pytorch and NVIDIA CUDA driver. Then you can step into the two folders to check the `README.md` file.
 
 - In the directory of "2dunet", the code mainly aims to segment the lung region to obtain all lung masks.
 - In the directory of "deCoVnet", the code does the classification task of whether a CT volume being infected.
