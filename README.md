@@ -13,6 +13,9 @@ Before running the code, please prepare a computer with NVIDIA GPU. Then install
 
 The pretrained models are not currently available. If you are interested in the training codes, please contact [Xinggang Wang](mailto:xgwang@hust.edu.cn).
 
+<hr>
+
+We also provide online testing website for evaluating a CT volume whether being infected. Click [here](http://39.100.61.27) for more details.
 
 
 # LICENSE
