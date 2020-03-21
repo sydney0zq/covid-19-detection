@@ -2,9 +2,15 @@
 
 By Chuansheng Zheng, Xianbo Deng, Qing Fu, Qiang Zhou, Jiapei Feng, Hui Ma, Wenyu Liu, and Xinggang Wang.
 
+
+This project aims at providing a deep learning algorithm to detect COVID-19 from chest CT using weak label. If you have interests about more details, please check [our preview paper](https://www.medrxiv.org/content/10.1101/2020.03.12.20027185v1) on medrixv. 
+
 <hr>
 
-[Preview paper](https://www.medrxiv.org/content/10.1101/2020.03.12.20027185v1) on medrixv. Before running the code, please prepare a computer with NVIDIA GPU. Then install anaconda, pytorch and NVIDIA CUDA driver. Then you can step into the two folders to check the `README.md` file.
+<h4> We also provide an online testing website for evaluating a CT volume whether being infected, click [here](http://39.100.61.27) to test your own chest CT.</h4>
+
+
+Before running the code, please prepare a computer with NVIDIA GPU. Then install anaconda, pytorch and NVIDIA CUDA driver. Then you can step into the two folders to check the `README.md` file.
 
 - In the directory of "2dunet", the code mainly aims to segment the lung region to obtain all lung masks.
 - In the directory of "deCoVnet", the code does the classification task of whether a CT volume being infected.
@@ -12,10 +18,6 @@ By Chuansheng Zheng, Xianbo Deng, Qing Fu, Qiang Zhou, Jiapei Feng, Hui Ma, Weny
 - The file "20200212-auc95p9.txt" contains the output probabilities of our pretrained deCovNet on our testing set.
 
 The pretrained models are not currently available. If you are interested in the training codes, please contact [Xinggang Wang](mailto:xgwang@hust.edu.cn).
-
-<hr>
-
-We also provide online testing website for evaluating a CT volume whether being infected. Click [here](http://39.100.61.27) for more details.
 
 
 # LICENSE
