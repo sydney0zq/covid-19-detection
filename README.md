@@ -2,13 +2,14 @@
 
 By Chuansheng Zheng, Xianbo Deng, Qing Fu, Qiang Zhou, Jiapei Feng, Hui Ma, Wenyu Liu, and Xinggang Wang.
 
+<hr>
 
 This project aims at providing a deep learning algorithm to detect COVID-19 from chest CT using weak label. If you have interests about more details, please check [our preview paper](https://www.medrxiv.org/content/10.1101/2020.03.12.20027185v1) on medrixv. 
 
+
+**Note: We provide an online testing website for evaluating a CT volume whether being infected, click [here](http://39.100.61.27) to test your own chest CT.**
+
 <hr>
-
-<h4> We also provide an online testing website for evaluating a CT volume whether being infected, click [here](http://39.100.61.27) to test your own chest CT.</h4>
-
 
 Before running the code, please prepare a computer with NVIDIA GPU. Then install anaconda, pytorch and NVIDIA CUDA driver. Then you can step into the two folders to check the `README.md` file.
 
