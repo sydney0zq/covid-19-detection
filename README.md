@@ -11,7 +11,7 @@ This project aims at providing a deep learning algorithm to detect COVID-19 from
 
 <hr>
 
-Before running the code, please prepare a computer with NVIDIA GPU. Then install anaconda, pytorch and NVIDIA CUDA driver. Then you can step into the two folders to check the `README.md` file.
+Before running the code, please prepare a computer with NVIDIA GPU, then install Anaconda, PyTorch and NVIDIA CUDA driver. Once the environment and dependent libraries are installed, please check the `README.md` files in `2dunet` and `deCoVnet` directories.
 
 - In the directory of "2dunet", the code mainly aims to segment the lung region to obtain all lung masks.
 - In the directory of "deCoVnet", the code does the classification task of whether a CT volume being infected.
