@@ -1,4 +1,4 @@
-This is the implementation of DeCoVNet. The code only covers the inference stage.
+This is the implementation of DeCoVNet. The code only covers training and testing stages.
 
 
 0. Prepare the deep learning environments
@@ -15,7 +15,10 @@ This is the implementation of DeCoVNet. The code only covers the inference stage
 
     c. Move the npydata and npymask to "NCOV-BF/NpyData-size224x336" and the list file to "NCOV-BF/ImageSets". We have provided an example file in these directories.
 
-2. Do evaluation
+2. Do training and testing
 
-    Before running the command, make sure your variables in the cfgs directory
-    CUDA_VISIBLE_DEVICES=0 python3 test.py cfgs/test.yaml
+    - Training: `CUDA_VISIBLE_DEVICES=0 python3 train.py cfgs/trainval.yaml`
+    - Testing: `CUDA_VISIBLE_DEVICES=0 python3 test.py cfgs/test.yaml`
+
+
+Note the final accuracy and AUC are about 90 and 96 on our validation set respectively (about 110 epoches), maybe you can stop your program when your model reaches them.

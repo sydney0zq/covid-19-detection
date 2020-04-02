@@ -1,0 +1,25 @@
+MODEL:
+    MODEL_UID: "unet"
+    NUM_CLASSES: 2
+
+DATALOADER:
+    TRAIN_CROP_SIZE: [192, 288]     # not used, please check code
+    BATCH_SIZE_PER_GPU: 1
+    NUM_WORKERS: 8
+    SAMPLE_NUMBER: 48
+
+SOLVER:
+    LEARNING_RATE: 1e-3
+    WEIGHT_DECAY: 0
+    LR_DECAY: 1
+    TRAIN_EPOCH: 300
+    SNAPSHOT_FREQ: 10
+    SNAPSHOT_HOME: "experiments"
+    SNAPSHOT_MODEL_TPL: "lungseg-Epoch_{:05d}.pth"
+    LOG_FILE: "experiments/train.log"
+    INIT_MODEL_PATH: ""
+    INIT_MODEL_STRICT: "True"
+    RESUME_EPOCH: 0
+
+DATASETS:
+    DATA_ROOT: "NCOV-BF/size368x368-trad"
