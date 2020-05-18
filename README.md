@@ -15,6 +15,7 @@ Before running the code, please prepare a computer with NVIDIA GPU, then install
 
 - In the directory of "2dunet", the code mainly aims to segment the lung region to obtain all lung masks.
 - In the directory of "deCoVnet", the code does the classification task of whether a CT volume being infected.
+- In the directory of "lesion\_loc", the code mainly implements the lesion localization.
 
 - The file "20200212-auc95p9.txt" contains the output probabilities of our pretrained deCovNet on our testing set.
 
