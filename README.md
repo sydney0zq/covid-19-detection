@@ -1,4 +1,4 @@
-# Deep Learning-based Detection for COVID-19 from Chest CT using Weak Label
+# A Weakly-supervised Framework for COVID-19 Classification and Lesion Localization from Chest CT
 
 By Xinggang Wang, Xianbo Deng, Qing Fu, Qiang Zhou, Jiapei Feng, Hui Ma, Wenyu Liu, Chuansheng Zheng.
 
