@@ -4,7 +4,7 @@ By Chuansheng Zheng, Xianbo Deng, Qing Fu, Qiang Zhou, Jiapei Feng, Hui Ma, Weny
 
 <hr>
 
-This project aims at providing a deep learning algorithm to detect COVID-19 from chest CT using weak label. And the souce code of **training and testing** is provided. If you have interests about more details, please check [our preview paper](https://www.medrxiv.org/content/10.1101/2020.03.12.20027185v1) on medrixv. 
+This project aims at providing a deep learning algorithm to detect COVID-19 from chest CT using weak label. And the souce code of **training and testing** is provided. If you have interests about more details, please check [our paper](http://doi.org/10.1109/TMI.2020.2995965) (IEEE Transactions on Medical Imaging). 
 
 
 **Note: We provide an online testing website for evaluating whether a CT volume being infected, click [here](http://39.100.61.27) to test your own chest CT.**
